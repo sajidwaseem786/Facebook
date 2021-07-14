@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sajid\\Facebook\\": "src/",
+            "Sajid\\Facebook\\": "src/"
         }
     },
     "autoload-dev": {
