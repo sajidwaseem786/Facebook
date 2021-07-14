@@ -1,8 +1,49 @@
 {
-    "name": "sajid/facebook",
-    "description": "laravel package",
-    "type": "laravel",
-    "license": "mit",
-    "minimum-stability": "dev",
-    "require": {}
+    "name": "Sajid/Facebook",
+    "description": "Powerful REPL for the Laravel framework.",
+    "keywords": ["tinker", "repl", "psysh", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/console": "~5.1|^6.0",
+        "illuminate/contracts": "~5.1|^6.0",
+        "illuminate/support": "~5.1|^6.0",
+        "psy/psysh": "0.7.*|0.8.*|0.9.*",
+        "symfony/var-dumper": "~3.0|~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0|~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sajid\\Facebook\\": "src/",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sajid\\Facebook\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Sajid\\Facebook\\FacebookServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "suggest": {
+        "illuminate/database": "The Illuminate Database package (~5.1)."
+    }
 }
