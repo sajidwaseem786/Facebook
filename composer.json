@@ -1,5 +1,5 @@
 {
-    "name": "Sajid/Facebook",
+    "name": "sajid/facebook",
     "description": "Powerful REPL for the Laravel framework.",
     "keywords": ["tinker", "repl", "psysh", "laravel"],
     "license": "MIT",
