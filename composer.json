@@ -1,0 +1,8 @@
+{
+    "name": "imranrbx/facebook",
+    "description": "laravel package",
+    "type": "laravel",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "require": {}
+}
